@@ -1,0 +1,170 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@200&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    height: 2cm;
+    width: auto;
+}
+
+body{
+    background-image: url(assets/image.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-top: 70px;
+    margin-left: 410px;
+    font-size: 90px;
+    font-family: 'Lexend Peta', sans-serif;
+}
+
+.frase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    margin-top: 100px;
+    margin-left: 350px;
+    width: 650px;
+    text-align: center;
+}
+
+
+
+.navegacao-primaria{
+    display: flex;
+    gap: 50px;
+    font-size: larger;
+    padding: 40px;
+}
+
+.ancora{
+    color: white;
+    text-decoration: none;
+}
+
+.saturn_icon{
+    width: 105px;
+    height: 100px;
+}
+
+.saturn_icon-image{
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+
+.sol{
+    margin-left: 1111px;
+    margin-top: -280px;
+    height: 500px;
+    width: auto;
+    position: absolute;
+}
+
+.lua{
+    width: auto;
+    height: 330px;
+    margin-top: -180px;
+}
+
+
+.frase{
+    color: white;
+}
+
+.saturn-planet{
+    height: 300px;
+}
+
+.jupiter{
+    height: 400px;
+}
+
+.neptune{
+    height: 270px;
+}
+
+.mars{
+    height: 170px;
+}
+
+.uranus{
+    height: 290px;
+}
+
+.earth{
+    height: 215px;
+    position: absolute;
+}
+
+.venus{
+    height: 185px;
+    position: absolute;
+    margin-left: 340px;
+}
+
+.mercury{
+    height: 90px;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 190px;
+}
+
+.div{
+    color: white;
+    width: 900px;
+    margin-left: 230px;
+    margin-top: 150px;
+    font-size: larger;
+    justify-content: space-between;
+}
+
+.info_planeta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    height: 2cm;
+    width: auto;
+    margin-top: 100px;
+}
+
+.constelações{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.conste_texto{
+    color: white;
+
+}
+
+.list{
+    color: white;
+}
+
+.div_cons{
+    padding: 30px;
+}
+
+.butijo{
+    height: 1cm;
+    margin-left: 1200px;
+    margin-top: -200px;
+}
